@@ -141,6 +141,9 @@ The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from 
 
 If you need to step through a series of numbers (or even letters) within a specific range, then these are the loops for you.
 
+__Note that Upto and Downto will not evaluate an expression before executing the loop e.g. var + 2.downto(0) is the same as 2.downto(0)__
+__If you're using an expression as the starting point for this loop, store the value in a variable first then use the variable__
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
